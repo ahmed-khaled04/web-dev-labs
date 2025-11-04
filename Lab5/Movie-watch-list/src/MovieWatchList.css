@@ -1,0 +1,118 @@
+
+.watch-list-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 25px;
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.watch-list-container h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.movie-input,
+.review-input {
+  width: 80%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.review-input {
+  height: 60px;
+  resize: none;
+}
+
+.rating-container {
+  margin: 10px 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.star.active {
+  color: gold;
+}
+
+.add-btn {
+  padding: 10px 16px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #2980b9;
+}
+
+.watch-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.movie-item {
+  background: white;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.movie-details {
+  margin-bottom: 8px;
+}
+
+.stars-display {
+  color: gold;
+  margin: 5px 0;
+}
+
+.review-text {
+  color: #555;
+  font-style: italic;
+}
+
+.remove-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
